@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Http\File;
 use App\Http\Controllers\Controller;
+use App\Imports\ProfileLulusanImport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ProfileLulusanController extends Controller
 {
